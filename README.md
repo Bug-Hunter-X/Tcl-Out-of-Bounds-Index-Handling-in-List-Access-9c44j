@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in Tcl code related to accessing elements in a list using an index.  The `get_value` procedure attempts to handle out-of-bounds indices, but its error handling is inadequate.  The `bug.tcl` file shows the buggy code. The `bugSolution.tcl` file provides a corrected version with improved error handling.
